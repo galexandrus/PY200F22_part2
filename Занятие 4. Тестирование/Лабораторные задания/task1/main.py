@@ -6,6 +6,7 @@ if __name__ == "__main__":
     T150 = SteamTurbine(150, 127.5, "Т", 18)
     print(T150)
     print(repr(T150))
+    print(T150.pk)
     T150.pk = 12
     R100 = SteamTurbine(100, 127.5, "Р", 3)
     print(R100)
@@ -35,4 +36,4 @@ if __name__ == "__main__":
     print(repr(Boris))
     Boris.phrase = "пришло время свернуть"
     print(Boris.phrase)
-    print(Hero.hero_count)
+    print(StraightHero.hero_count)

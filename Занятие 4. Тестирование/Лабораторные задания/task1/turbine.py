@@ -73,7 +73,7 @@ class SteamTurbine(Turbine):
 
     @property
     def pk(self) -> Union[int, float]:
-        return self.pk
+        return self._pk
 
     @pk.setter
     def pk(self, new_pk):

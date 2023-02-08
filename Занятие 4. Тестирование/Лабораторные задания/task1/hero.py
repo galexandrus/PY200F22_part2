@@ -43,7 +43,7 @@ class NormalHero(Hero):
 
     @property
     def phrase(self):
-        return self._phrase
+        return f"{self._name} говорит: {self._phrase}"
 
     @phrase.setter
     def phrase(self, new_phrase):
@@ -62,7 +62,7 @@ class StraightHero(Hero):
 
     @property
     def phrase(self):
-        return self._phrase
+        return f"{self._name} говорит: {self._phrase}"
 
     @phrase.setter
     def phrase(self, new_phrase):
